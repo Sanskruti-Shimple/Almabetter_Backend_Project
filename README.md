@@ -1,6 +1,3 @@
-#Live link--
-https://almabetter-backend-project-737r.onrender.com/
-
 # Almabetter Backend
 
 A simple Node.js + Express + MongoDB backend for managing subscribers.
@@ -162,3 +159,12 @@ From the repository root, run:
 The script builds the Bicep template, previews infrastructure changes with `what-if`, provisions the resources, stores the Cosmos DB URI in Key Vault, packages the app without `src/.env` or `node_modules`, deploys it, and checks `GET /subscribers`. The default region is Central US and the App Service plan is F1 for a low-traffic demo. Cosmos DB serverless storage and operations may still incur charges. Review `.azure\plan.copilotmd` for the architecture and `.azure\presentation-script.md` for the project walkthrough.
 
 The `seed` script deletes existing subscriber documents before inserting sample records. Do not run it against a database containing data you need to keep.
+
+## Live Demo Link
+
+https://almabetter-backend-project-737r.onrender.com/
+
+## Screenshot
+
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/58f01b7b-8bc4-4281-8c77-189c315200dc" />
+
