@@ -75,11 +75,6 @@ http://localhost:3000
 GET /subscribers
 ```
 
-### Get subscriber names only
-
-```http
-GET /subscribers/names
-```
 
 ### Get a subscriber by ID
 
