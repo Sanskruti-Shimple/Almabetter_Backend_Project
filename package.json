@@ -1,0 +1,26 @@
+{
+  "name": "almabetter_backend",
+  "version": "1.0.0",
+  "description": "A simple Node.js and MongoDB app for managing subscribers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/createDatabase.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "subscribers",
+    "api"
+  ],
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^7.5.0",
+    "mongoose": "^8.15.1"
+  }
+}
